@@ -1,0 +1,20 @@
+ggit push - used to push the changes to remote repository
+git add remote https://repo_url_here - used to link the remote repository in the local code
+git pull - used to retrieve the latest repository changes to current branch
+git log  FILE_NAME - used to see the tracking log of  file
+ git log -p FILE_NAME - used to see the history and changes 
+git show commit-id -  Git log to show some statistics about the changes in each commit, including line(s) changed and file names
+git diff -  pass a file as a parameter to only see changes on a specific file.
+git mv - file renames use
+git checkout - Moving to New branch ,Switch branch ,Undo the file which is modified
+ git branch - list all the available branches in repo
+ git branch -d branch_name : used to delete the un-used branch
+git merge BRANCH_NAME - combine the changes from another branch or master branch
+git config --global user.name "usere name"
+git config --global user.email "username@gmail.com"
+git init - initialize new repository locally in the root project folder
+ git add FILE_NAME - Use to add the newly added file and modified file to staging
+ git add . - it will add all the files into staging (Be cautious while using this)
+ git add fil* - it will add the file which starts with the pattern given
+ git status - it is used to check the current status of the repository whether it is staged or not staged
+ git commit -a -m"your commit message here" - this command used to add
